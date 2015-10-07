@@ -1,0 +1,18 @@
+cd (slóð)
+	Fer inn á þá slóð sem ég skrifa inn.
+
+git init
+	Býr til tómt Git Repository.
+
+git config --global user.name Stefan
+	Setur Stefan sem nafn fyrir höfund allra breytinga sem gerð eru af þessari tölvu.
+
+git add (directory)
+	Gerir öll file inn á nefndu directory tilbúin til að fara í repository við næsta commit.
+
+git commit -m "Skilaboð"
+	Byrjar commit proccessið, og setur inn skilaboð fyrir commitið.
+
+git remote add (nafn) (url)
+	Connectar repo-ið inni í tölvunni við repo-ið sem ég gerði á Github síðunni.
+

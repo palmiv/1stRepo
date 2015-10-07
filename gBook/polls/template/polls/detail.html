@@ -1,0 +1,6 @@
+<h1>{{ name.name_text }}</h1>
+<ul>
+{% for comment in name.choice_set.all %}
+    <li>{{ comment.comment_text }}</li>
+{% endfor %}
+</ul>
