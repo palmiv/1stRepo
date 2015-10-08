@@ -6,6 +6,7 @@ from .models import Name
 def index(request):
     latest_name_list = Name.objects.order_by('-pub_date')[:5]
     context = {'latest_name_list': latest_name_list}
+    print("Pálmi did this :)")
     return render(request, 'polls/index.html', context)
 
 def detail(request, name_id):
